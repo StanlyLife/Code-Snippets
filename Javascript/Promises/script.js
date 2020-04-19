@@ -50,7 +50,7 @@ getUsername((name) => {
 
 /*
 promise is an object that gives back result or failure of async operation
-resolve = sucess
+resolve = success
 reject = failure
 */
 const loginPromise = new Promise((resolve, reject) => {

@@ -82,6 +82,8 @@ main {
   text-align: center;
   font-family: lobster;
   font-size: 1.3rem;
+
+  opacity: 0;
 }
 
 .article hr {
@@ -102,8 +104,13 @@ main {
 
 /*page1*/
 
-.page1 .article,
-.page1 .article p {
+.pone,
+.ptwo,
+.pthree {
   background-color: lavender;
+}
+.pone p,
+.ptwo p,
+.pthree p {
   color: #333;
 }

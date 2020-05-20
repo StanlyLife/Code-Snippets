@@ -1,0 +1,32 @@
+/*Entire webpage*/
+.transition-one {
+  /*from*/
+  transition: 1s;
+  opacity: 1;
+}
+
+html.is-animating .transition-one {
+  /*to*/
+  opacity: 0;
+}
+/**/
+
+/*article two*/
+.article.two {
+  transition: 2s;
+  transform: translate(0vw);
+}
+html.is-animating .article.two {
+  /*to*/
+  transform: translate(100vw, 0);
+}
+/**/
+/*article one*/
+.article.one {
+  transition: 2s;
+  transform: translate(0vw);
+}
+html.is-animating .article.one {
+  /*to*/
+  transform: translate(-100vw, 0);
+}
